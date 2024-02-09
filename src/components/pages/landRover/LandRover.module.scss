@@ -1,0 +1,84 @@
+.LandRover {
+  h1 {
+    color: #f8eddb;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  background-color: #080808;
+  padding-block: 30px;
+  .Content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    width: 100%;
+    .box {
+      display: flex;
+      flex-direction: column;
+      max-width: 540px;
+      padding: 10px 10px 0px 10px;
+      border: 2px solid transparent;
+      color: white;
+      h3 {
+        font-family: "Inter", sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        margin-block: 12px;
+      }
+      img {
+        width: 100%;
+      }
+      p {
+        font-family: "Inter", sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        margin: 5px 0px 20px;
+        color: #f3bb2ef7;
+      }
+    }
+    .box:hover {
+      display: flex;
+      flex-direction: column;
+      border: 2px solid #f3bb2ef7;
+    }
+  }
+}
+
+.modalCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  width: 100%;
+  .car_info {
+    width: 400px;
+
+    h3 {
+      font-family: "Inter", sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      margin-block: 12px;
+    }
+    p {
+      font-family: "Inter", sans-serif;
+      font-size: 42px;
+      font-weight: 600;
+      margin: 5px 0px 40px;
+      color: #f3bb2ef7;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      padding: 0px;
+      li {
+        list-style: none;
+        line-height: 20px;
+        font-size: 30px;
+      }
+    }
+  }
+}

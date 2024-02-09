@@ -1,0 +1,44 @@
+.Header {
+  position: fixed;
+  top: -110;
+  left: 0;
+  width: 100%;
+  background-color: #191919;
+  z-index: 1;
+  padding-top: 10px;
+  .Content {
+    .header_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+
+      .homeLogo {
+        padding: 20px;
+      }
+    }
+  }
+}
+
+.nav {
+  margin-top: 103px;
+  background-color: #191919;
+
+  ul {
+    margin: 20px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        font-size: 28px;
+        color: #f8eddb;
+      }
+      a:hover {
+        text-decoration: revert;
+      }
+    }
+  }
+}
